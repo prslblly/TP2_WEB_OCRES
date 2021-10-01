@@ -27,9 +27,9 @@ a {
 }
 
 body > header {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
     background: white;
-    box-shadow: 1px 0px 8px rgb(200, 200, 200);
+    box-shadow: 0.063em 0em 0.5em rgb(200, 200, 200);
 }
 
 header .logo-search form  {
@@ -41,13 +41,13 @@ header .user {
 }
 
 header .user a {
-    font-size: 13px;
+    font-size: 0.813em;
     color: #89949b;
-    padding-top: 5px;
+    padding-top: 0.313em;
 }
 
 main h2 {
-    margin-top: 4px;
+    margin-top: 0.25em;
 }
 
 
@@ -58,13 +58,13 @@ main article {
 h3 {
     color: #b8c3c9;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 0.688em;
     font-weight: normal;
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
 }
 
 nav ul li a { 
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: normal;
     color: #828c92;
 }
@@ -74,46 +74,46 @@ nav ul li a:hover {
 }
 
 nav ul li {
-    margin-top: 5px;
+    margin-top: 0.313em;
 }
 
 main header aside img {
-    border: 1px solid #dadada;
+    border: 0.063 solid #dadada;
     border-radius: 50%;
-    box-shadow: 0 0 5px #cecece;
+    box-shadow: 0 0 0.313em #cecece;
 }
 
 nav ul li:last-child {
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
 }
 
 h1 {
     color: #4b5c66;
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: normal;
-    margin: 0 0 8px 0;
+    margin: 0 0 0.5em 0;
 }
 
 .name p { 
     color: #a0aab1;
-    font-size: 12px;
+    font-size: 0.75em;
 }
 
 .name p img { 
-    margin-left: 12px;
+    margin-left: 0.75em;
 }
 
 
 .stats-links {
     color: #4b5c66;
-    font-size: 12px;
-    padding: 15px 0px 10px 0px;
-    border-bottom: 1px solid #e1e6e9;
-    margin-bottom: 20px;
+    font-size: 0.75em;
+    padding: 0.938 0 0.625em 0;
+    border-bottom: 0.063em solid #e1e6e9;
+    margin-bottom: 1.25em;
 }
 
 .stats-links span, .stats-links a {
-    margin-right: 20px;
+    margin-right: 1.25em;
 }
 
 .stats-links a:last-child {
@@ -121,13 +121,17 @@ h1 {
 }
 
 .stats-links a {
-    font-size: 12px;
+    font-size: 0.75em;
     font-weight: normal;
     color: #4b5c66;
 }
 
+.stats-links a:hover {
+    color: #fe7f19;
+}
+
 h2 {
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: normal;
     color: #4b5c66;
 }
@@ -137,17 +141,17 @@ header form {
 }
 
 input.search {
-    background: url("../img/icon/search.png") #ebeff1 no-repeat 8px;
+    background: url("../img/icon/search.png") #ebeff1 no-repeat 0.5em;
     box-shadow: none;
-    height: 28px;
+    height: 1.75em;
     width: 40%;
-    font-size: 13px;
-    padding: 3px 6px 3px 25px;
-    border: 1px solid #d0dde9;
+    font-size: 0.813em;
+    padding: 0.188em 0.375em 0.188em 1.563em;
+    border: 0.063em solid #d0dde9;
     margin: 0;
-    border-radius: 15px;
-    top: 11px;
-    box-shadow: inset 1px 1px 5px #d5d5d5;
+    border-radius: 0.938em;
+    top: 0.688em;
+    box-shadow: inset 0.063em 0.063em 0.313em #d5d5d5;
 }
 
 input.submit {
@@ -155,14 +159,14 @@ input.submit {
 }
 
 .station {
-    font-size: 12px;
+    font-size: 0.75em;
     color: #008fd5;
-    border-radius: 5px;
-    border: 1px solid #b8c3c9;
+    border-radius: 0.313em;
+    border: 0.063em solid #b8c3c9;
     cursor: pointer;
-    padding: 7px 10px 7px 30px;
-    box-shadow: 1px 1px #d5d5d5;
-    background: url("../img/icon/station.png") no-repeat 8px;
+    padding: 0.438em 0.625em 0.438em 1.875em;
+    box-shadow: 0.063em 0.063em #d5d5d5;
+    background: url("../img/icon/station.png") no-repeat 0.5em;
     transition: all 0.4s;
 }
 
@@ -174,51 +178,51 @@ input.submit {
 
 
 #albums article {
-    font-size: 13px;
+    font-size: 0.813em;
     color: #89949b;
-    margin: 10px 0;
+    margin: 0.625em 0;
 }
 
 #albums article img {
-    border: 1px solid #cbcbcb;
+    border: 0.063em solid #cbcbcb;
     transition: all 0.3s;
     width: 100%;
 }
 
 #albums article img:hover {
-    box-shadow: 0 0 15px #848484;
+    box-shadow: 0 0 0.938em #848484;
     transform: scale(1.1) rotate(-3deg);
 }
 
 #albums article figcaption {
     color: #4b5c66;
-    margin-top: 6px;
+    margin-top: 0.375em;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
 #albums article .artist, #albums article .count {
-    margin-top: 4px;
+    margin-top: 0.25em;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
 #albums .explicit {
     color: #ff5d5d;
-    margin-left: 5px;
+    margin-left: 0.313em;
 }
 
 nav.browse a, nav.music a {
-    padding-left: 20px;
-    padding-top: 2px;
+    padding-left: 1.25em;
+    padding-top: 0.125em;
 }
 
-nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }
-nav a.recent { background: url("../img/icon/recent.png") no-repeat 0px; }
-nav a.top { background: url("../img/icon/top.png") no-repeat 0px; }
-nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
-nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; }
-nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
+nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0; }
+nav a.recent { background: url("../img/icon/recent.png") no-repeat 0; }
+nav a.top { background: url("../img/icon/top.png") no-repeat 0; }
+nav a.new { background: url("../img/icon/new.png") no-repeat 0; }
+nav a.collection { background: url("../img/icon/collection.png") no-repeat 0; }
+nav a.history { background: url("../img/icon/history.png") no-repeat 0; }
 
 
 
